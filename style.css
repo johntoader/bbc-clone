@@ -156,17 +156,18 @@ h2 {
 }
 
 #heading-body {
-    width: 33%;
+    width: 30%;
     float: left;
 }
 
 .heading-description {
-    width: 40%;
+    width: 90%;
     color: #757575;
 }
 
 #published {
     font-size: 90%;
+    padding-bottom: 10px;
 }
 
 .timer {
@@ -198,9 +199,23 @@ h2 {
 }
 
 .other-headings {
-    padding: 5px;
+    margin-top: 10px;
     clear: both;
 }
-#main-image{
+
+.other-headings p:hover {
+    color: #0277BD;
+}
+
+#main-image {
     float: left;
+    margin-top: 15px;
+}
+
+#container {
+    float: left;
+}
+
+#main-end {
+    width: 70%;
 }
