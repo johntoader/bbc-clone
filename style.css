@@ -200,7 +200,7 @@ h2 {
 
 .other-headings {
     margin-top: 10px;
-    clear: both;
+    float: left
 }
 
 .other-headings p:hover {
@@ -216,6 +216,39 @@ h2 {
     float: left;
 }
 
+#divider {
+    border-right: 1px #CCC solid;
+    height: 295px;
+    margin: 0;
+    padding: 0;
+}
+
 #main-end {
-    width: 70%;
+    clear: both;
+    float: left;
+    width: 71%;
+}
+
+.first-third {
+    clear: both;
+    width: 25%;
+    float: left;
+}
+
+.other-news-border {
+    border-right: 1px #CCC solid;
+    height: 300px;
+    float: left;
+}
+
+#left-image {
+    float: left;
+}
+
+#left-heading {
+    float: left;
+}
+
+#left-heading-description {
+    float: left;
 }
