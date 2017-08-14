@@ -216,28 +216,37 @@ h2 {
     float: left;
 }
 
-#divider {
-    border-right: 1px #CCC solid;
-    height: 295px;
-    margin: 0;
-    padding: 0;
-}
-
 #main-end {
-    clear: both;
     float: left;
     width: 71%;
 }
 
-.first-third {
+#other-news {
     clear: both;
-    width: 25%;
+}
+h3{
+    font-weight: 30
+}
+
+#first-third {
+    width: 26%;
+    float: left;
+}
+
+#second-third {
+    width: 26%;
+    float: left;
+}
+
+.third-third {
+    width: 18%;
     float: left;
 }
 
 .other-news-border {
     border-right: 1px #CCC solid;
     height: 300px;
+    margin-right: 5px;
     float: left;
 }
 
@@ -250,5 +259,14 @@ h2 {
 }
 
 #left-heading-description {
+    float: left;
+}
+#right-heading-one{
+    float: left;
+}
+#right-heading-two{
+    float: left;
+}
+right-heading-three{
     float: left;
 }
