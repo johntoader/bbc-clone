@@ -145,6 +145,10 @@ h2 {
     font-weight: 200;
 }
 
+#news-left {
+    float: left;
+}
+
 #main-heading {
     width: 66.6%;
     margin-top: 20px;
@@ -230,14 +234,11 @@ h2 {
 }
 
 h3 {
-    font-weight: bolder;
+    font-size: 100%;
 }
 
 #first-third {
     width: 36%;
-    float: left;
-}
-#left-image{
     float: left;
 }
 
@@ -253,7 +254,7 @@ h3 {
 
 .other-news-border {
     border-right: 1px #CCC solid;
-    height: 300px;
+    height: 400px;
     margin-right: 5px;
     float: left;
 }
@@ -267,6 +268,7 @@ h3 {
 }
 
 #left-heading-description {
+    color: #757575;
     float: left;
 }
 
@@ -280,4 +282,16 @@ h3 {
 
 right-heading-three {
     float: left;
+}
+
+#news-right {
+    float: left;
+}
+
+#news-right {
+    position: absolute;
+    right: 0;
+    height: 1500px;
+    width: 33%;
+    background-color: blue;
 }
