@@ -302,3 +302,46 @@ right-heading-three {
     font-weight: 300;
     color: #616161;
 }
+
+#right-one {
+    position: relative;
+    float: left;
+}
+
+#right-two {
+    position: relative;
+    float: left;
+}
+
+#right-three {
+    position: relative;
+    float: left;
+}
+
+#right-four {
+    position: relative;
+    float: left;
+}
+
+#right-five {
+    position: relative;
+    float: left;
+}
+
+#right-six {
+    position: relative;
+    float: left;
+}
+
+.watch-listen {
+    float: left;
+}
+
+.right-news-video {
+    float: left;
+}
+
+.watch-listen-headers {
+    font-weight: bold;
+    float: left;
+}
