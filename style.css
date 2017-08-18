@@ -138,7 +138,7 @@ h1 {
     margin: 0;
 }
 
-h2 {
+#news-title {
     border-bottom: 3px solid #BB1919;
     margin: 0;
     color: #616161;
@@ -291,7 +291,14 @@ right-heading-three {
 #news-right {
     position: absolute;
     right: 0;
-    height: 1500px;
+    height: 750px;
     width: 33%;
-    background-color: blue;
+    border-left: 1px #CCC solid;
+    padding: 10px;
+}
+
+#right-news-title {
+    margin-top: 8px;
+    font-weight: 300;
+    color: #616161;
 }
