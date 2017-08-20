@@ -3,7 +3,7 @@ body {
     padding: 0;
     height: 2000px;
     background-color: #ffffff;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 #top-nav {
@@ -172,13 +172,12 @@ h1 {
 }
 
 #published {
-    font-size: 90%;
+    font-size: 80%;
     padding-bottom: 10px;
 }
 
 .timer {
     float: left;
-    margin-right: 5px;
 }
 
 .date {
@@ -297,6 +296,11 @@ right-heading-three {
     padding: 10px;
 }
 
+#news-right-container {
+    float: left;
+    width: 75%;
+}
+
 #right-news-title {
     margin-top: 8px;
     font-weight: 300;
@@ -334,6 +338,8 @@ right-heading-three {
 }
 
 .watch-listen {
+    width: 60%;
+    padding-bottom: 10px;
     float: left;
 }
 
